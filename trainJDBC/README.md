@@ -1,4 +1,4 @@
-## JDBC - Train Database (IRCTC)
+## JDBC - Train Database (IRCTC) - WIP
 
 `IRCTC` is a local database I created on my local system. It a sample and very short database I created to run some basic commands in the JVM / JRE.
 
@@ -25,3 +25,11 @@ Create a database connection class. This will be the default code for calling a 
 
 `db-details`:
 Create a public interface to store the driver, dbname, username & password. This will be used in the connection directly.
+
+## Variables / Changeable things
+
+Since this is a program specifically written for a database on my local pc, there are some details that need to be updated / changed as per user's database.
+
+The CRUD operations will most likely stay the same, however the connection details will vary from user to user.
+
+From the class DbDetails, the `CONSTRING` will store the address of the local database, connected through localhost. `DBDRIVER` will store the jdbc driver, imported from the mysql-connector jar file. `USRNAME` and `PASSWD` will obviously contain the username and password to access your database / mysql workbench.
