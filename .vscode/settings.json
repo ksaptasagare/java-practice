@@ -1,0 +1,12 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "d:\\pg-dbda\\mysql-connector\\mysql-connector-java-8.0.30.jar"
+        ],
+        "exclude": [
+            "d:\\PG-DBDA\\Java\\mysql-connector\\mysql-connector-java-8.0.30.jar"
+        ]
+    }
+}
